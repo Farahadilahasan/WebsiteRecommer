@@ -5,7 +5,7 @@ Version 1.0
 
 Disusun Oleh :
 
-FARAH ADILAH HASAN 		        22091397092 MIC
+FARAH ADILAH HASAN 		     22091397092 MIC
 
 M. ADHIEL VINCO AUKY	        22091397089 MIC
 
@@ -14,11 +14,11 @@ Fakultas Vokasi
 Universitas Negeri Surabaya
 2023
 
-A. Deskripsi Produk
+<b>A. Deskripsi Produk</b>
 
 Website Recommer merupakan sebuah website yang memberikan pelayanan kepada pengguna dalam bentuk rekomendasi kebutuhan wisata yang sangat lengkap. mulai dari rekomendasi objek wisata yang ingin wisatawan kunjungi, hotel, restoran bahkan travel atau transportasi yang akan di gunakan saat berwisata. selain memberikan beberapa rekomendasi, website ini juga membantu pelayanan booking/reservasi sesuai jadwal yang dinginkan oleh wisatawan. disisi lain juga wisatawan bisa memberikan ulasan dalam bentuk komentar ataupun rating terkait apa yang telah direkomendasikan oleh Website Recommer ini sendiri. website Recommer ini nantinya akan di design dengan tampilan semenarik mungkin dan yang terpenting user friendly. karna sebelum kita memberikan pengalaman layanan kebutuhan wisata kepada pengguna, sebaiknya kita memberikan pengalaman penggunaan website yang mudah dan gampang untuk dimengerti terlebih dahulu kepada pengguna.
 
-B. Tujuan
+<b>B. Tujuan</b>
    
 Pembuatan website Recommer ini memiliki beberapa tujuan. Tujuan biasanya muncul dari proses visi, atau rencana yang akan membantu dalam meraih sesuatu yang diinginkan, diantaranya :
 
@@ -26,7 +26,7 @@ Pembuatan website Recommer ini memiliki beberapa tujuan. Tujuan biasanya muncul 
 2. Memudahkan pengguna untuk memesan akomodasi hotel, wisata, dan restoran di berbagai wilayah. <br>
 3. Memberikan tawaran harga dan paket liburan yang menarik untuk para pengguna/traveler/wisatawan. Yang mana dalam paket liburan tersebut mencangkup wisata, hotel, dan makan di restoran.
     
-C. Audiensi yang Dituju
+<b>C. Audiensi yang Dituju</b>
 
 Dokumen ini ditujukan untuk pengembang web, pengguna, penguji dan penulis dokumentasi hingga staf pemasaran dan lain sebagainya. SRS ini dibagi menjadi beberapa bagian, antara lain yaitu:
 1. Pengembang web yang ingin mencari referensi mengenai web rekomendasi. <br>
@@ -36,20 +36,21 @@ Dokumen ini ditujukan untuk pengembang web, pengguna, penguji dan penulis dokume
 5. Dokumen pengajuan. <br>
 
 
+<b>E. Penjelasan Codingan HTML Dan CSS yang digunakan</b> 
 
-# LAPORAN KODINGAN PROJECT.HTML 
+<b>PENJELASAN CODINGAN PROJECT.HTML</b> 
 
 ![1 html](https://github.com/Farahadilahasan/WebsiteRecommer/assets/124495764/c0295936-97f6-4b9b-82fe-2f28241733d8)
 
-Diawal kodingan terdapat keterangan DOCTYPE yang mengindikasikan bahwa halaman ini adalah dokumen HTML. Selanjutnya terdapat tag <head> yang berguna untuk menampung informasi tentang halaman web tersebut, seperti metadata dan referensi ke berkas-berkas eksternal seperti CSS. Semua elemen yang berada dalam head tidak akan ditampilkan pada halaman itu sendiri tetapi digunakan untuk mengkonfigurasi penyediaan informasi kepada browser. Agar tampilan halaman website ini bisa terkontrol pada perangkat yang digunakan maka kita perlu menggunakan meta tag viewport. selanjutnya kita membuat tag link yang digunakan untuk menghubungkan halaman HTML dengan file CSS eksternal yang berfungsi untuk mengatur tampilan dan gaya halaman web. Terakhir yang terdapat pada head terdapat <title> yang berguna untuk menentukan judul halaman web yang akan di tampilkan di tab browser  
+Diawal kodingan terdapat keterangan DOCTYPE yang mengindikasikan bahwa halaman ini adalah dokumen HTML. Selanjutnya terdapat tag <head> yang berguna untuk menampung informasi tentang halaman web tersebut, seperti metadata dan referensi ke berkas-berkas eksternal seperti CSS. Semua elemen yang berada dalam head tidak akan ditampilkan pada halaman itu sendiri tetapi digunakan untuk mengkonfigurasi penyediaan informasi kepada browser. Agar tampilan halaman website ini bisa terkontrol pada perangkat yang digunakan maka kita perlu menggunakan meta tag viewport. selanjutnya kita membuat tag link yang digunakan untuk menghubungkan halaman HTML dengan file CSS eksternal yang berfungsi untuk mengatur tampilan dan gaya halaman web. Terakhir yang terdapat pada head terdapat title yang berguna untuk menentukan judul halaman web yang akan di tampilkan di tab browser  
 
-### NAVIGASI BAR
+<b>NAVIGASI BAR</b>
 
 ![2](https://github.com/Farahadilahasan/WebsiteRecommer/assets/124495764/e5f49cc4-9d9b-4d01-9223-0e7562a1a0c5)
 
 Dibagian ini  kita akan fokus kepada pembuatan navigasi bar pada website. Kita awali dengan elemen nav sebagai tanda navigasi dari halaman website. Selanjutnya kita perlu membuat div class=”wrapper” yang menjadi wadah/container dengan kelas CSS “wrapper” yang berguna untuk mengelompokkkan elemen – elemen yang terdapat dalam navigasi. Dalam navigasi ini nantinya kita iingin mencantumkan logo/judul dari website yang kita buat dengan menggunakan div class=”logo karna desain yang kita inginkan dari logo tersebut berbeda dengan desain menu yang kita buat sehingga kita perlu membuat div class yang berbeda. Menu yang akan kita buat akan di kelompokkan melalui div class=”menu” yang berisi daftar menu navigasi. Didalam div class menu terdapat elemen ul sebagai daftar tak terurut yang berisi tautan menu yang akan membawa user kepada halaman yang dituju melalui daftar menu tersebut. Dalam elemen ul terdapat elemen li yang menandakan satu item menu. Dalam setiap li terdapat a href=”#Item menu” Item Menu /a yang berfungsi sebgai tautan menu yang mengarahkan pengguna ke berbagai bagian halaman web yang menggunakan tanda “#” dan diikuti oleh Id dari masing – masing bagian yang bersangkutan. 
 
-### MENU HOME
+<b>MENU HOME</b>
 ![3](https://github.com/Farahadilahasan/WebsiteRecommer/assets/124495764/904db385-75b0-4e93-a1e8-b643d1f00841)
 
 Pada bagian ini kita akan memulai untuk membangun isi konten menu HOME. Pada bagian ini kita menggunakan div class=”wrapper” untuk mengelompokkkan elemen-elemen dalam menu HOME pada halaman web. Selanjutnya terdapat elemen section yang memiliki atribut id “home” yang berguna untuk mengelompokkan dan mengidentifikasi bagian “HOME” dari halaman website. Di bagian home ini kita memberi sebuah gambar menggunakan elemen img srs=”” yang mana gambar tersebut merujuk pada file image yang telah di simpan ke dalam folder asset yang menyimpan semua gambar yang digunakan untuk project website ini sendiri. Pada bagian konten tulisan kita membuat div class=”kolom” sebagai wadah kelas CSS yang berisikan teks. Berikut ini konten tulisan yang terdapat pada bagian home 
@@ -59,12 +60,12 @@ Pada bagian ini kita akan memulai untuk membangun isi konten menu HOME. Pada bag
 •	Dibaris ketiga kita kembali menggunakan elemen p yang berguna sebagai teks deskripsi tambahan <br>
 •	Dibagian terakhir pada isi konten home terdapat paragraf yang berisi tautan yang tersembunyi dalam teks “cari tahu lebih lanjut” yang mana ketika user mengklik tautan tersebut maka website akan mengalihkan ke halaman yang dituju dari tautan itu sendiri. Dalam pargraf ini juga terdapat kelas CSS “tbl-biru” yang memberikan bentuk tabel berwarna biru pada teks tersebut 
 
-### MENU ABOUT ME
+<b>MENU ABOUT ME</b>
 ![4](https://github.com/Farahadilahasan/WebsiteRecommer/assets/124495764/f524b3fc-bcea-4831-91c5-a6a5a4466f39)
 
 Seperti penjelasan sebelumnya, pada bagian section, div class=”kolom dan juga p class=”deskripsi” memiliki fungsi yang sama seperti sebelumnya, hanya saja dibagian atribut id pada section kita perlu menyesuaikan dengan konten menu selanjutnya yang akan kita buat. Terkait kebutuhan elemen untuk isi konten dalam menu ABOUT ME ini juga tidak berbeda dengan menu sebelumnya (HOME).
 
-### MENU RECOMMENDATION
+<b>MENU RECOMMENDATION</b>
 ![5](https://github.com/Farahadilahasan/WebsiteRecommer/assets/124495764/b78fc9db-8ea8-44a8-931f-8368ed27b545)
 
 Di bagian ini kita akan membuat isi konten dari menu recommendation. Di awal bagian masih terdapat beberapa elemen yang sama seperti  menu menu sebelumnya seperti elemen section,  dan div class lainnya. Tetapi terdapat 1 div class tambahan yang tidak terdapat pada pada menu sebelumnya yakni div class=”tengah” yang  berguna untuk  mengatur elemen – elemen yang terdapat di bagian menuini supaya tampilannya bisa ke tengah halaman.
@@ -73,14 +74,14 @@ Di bagian ini kita akan membuat isi konten dari menu recommendation. Di awal bag
 
 Bagian ini menjadi isi konten utama dalam halaman RECOMMENDATION. Dibawah judul dan teks yang sudah dibuat sebelumnya, disini kita membuat div class=”Recommendation-list yang berisi daftar kategori rekomendasi. Setiap rekomendasi ini nantinya akan ditempatkan dalam divclass=”kartu-Recommendation” yang berisi gambar. Di bawah setiap gambar terdapat sebuah teks dengan kelas CSS yang akan mendefinisikan rekomendasi tersebut (Penginapan, Wisata, Transportasi, Kuliner)
 
-### MENU FIND US
+<b>MENU FIND US</b>
 ![7](https://github.com/Farahadilahasan/WebsiteRecommer/assets/124495764/14e812fd-60ff-415a-ab29-12bc4b7394cf)
 
 ![8](https://github.com/Farahadilahasan/WebsiteRecommer/assets/124495764/3b07ddc4-a2e3-4f16-8774-51e2bf8caec4)
 
 Di bagian ini kita akan membuat isi konten dari menu FindUS. Semua kebutuhan elemen yang terdapat pada menu ini sama persis dengan elemen-elemen yang digunakan pada menu RECOMMENDATION. Hanya saja pada bagian menu ini gambar yang kita cantumkan berformat URL beberapa gambar yang kita salin dari situs website lain. Pada bagian div class “kartu-FidnUs” juga terdapat 1 perbedaan dari menu sebelumnya yang mana kita tidak memberikan elemen p sebagai penjelasan berupa teks. Karna dibagian ini berisi media sosial yang tentunya semua orang tau aplikasi – aplikasi yang biasa digunakan sebagai sarana publikasi jadi kami rasa tidak perlu lagi di berikan sebuah keterangan/teks yang mendefiniskan gambar tersebut
 
-### MENU CONTACT 
+<b> MENU CONTACT</b> 
 ![9](https://github.com/Farahadilahasan/WebsiteRecommer/assets/124495764/aa3f275e-28b0-48b0-b9f3-ed01bc404105)
 
 Pada bagian kita akan membuat isi konten dari menu CONTACT. Di awal kita menggunakan div id=”contact” untuk mengelompokkan dan menampilkan indormasi kontak dan media sosial di bagian bawah/footer. Selanjutnya di setiap kelompok informasi seputar kontak akan di wadahi oleh div class “footer-section” yang akan mengatur tatanan tampilan melalui CSS. Pada setiap kelompok informasi kontak terdapat beberapa elemen seperti h3 yang berguna sebagai judul dari sebuah kelompok informasi, kemudian elemen p yang berguna untuk memberikan deskripsi singkat dari judul yang tertera
@@ -89,7 +90,7 @@ Pada bagian kita akan membuat isi konten dari menu CONTACT. Di awal kita menggun
 
 Di bagian paling bawah dari halaman utama terdapat elemen div id=”copyright” yang bergun auntuk menampilkan hak cipta. Dalam elemen div tersebut terdapat elemen b yang berguna untuk menge – boald tulisan yang dinginkan 
 
-## LAPORAN CSS DARI PROJECT.HTML
+ <b>PENJELASAN CSS DARI PROJECT.HTML</b>
 
 ![1CSS](https://github.com/Farahadilahasan/WebsiteRecommer/assets/124495764/2a200e62-7973-4ec4-96c6-bf2499941d7d)
 
@@ -114,7 +115,7 @@ Css pada bagian ini menaggambarkan aturan gaya yang akan di terapkan pada elemen
 
 ![4CSS](https://github.com/Farahadilahasan/WebsiteRecommer/assets/124495764/1f454121-8629-4a7f-89d6-71fabc71728b)
 
-Pada bagian ini merupakan css yang mengatur styling pada kelas “logo” yang juga merupakan tautan <a> yang berisi sebuah text sebagai logo <br>
+Pada bagian ini merupakan css yang mengatur styling pada kelas “logo” yang juga merupakan tautan (a) yang berisi sebuah text sebagai logo <br>
 •	Font size : untuk mengatur besar kecilnya ukuran font yang digunakan  <br>
 •	Font weight : untuk mengatur ketebalan font text (bold) <br>
 •	“Float : left” : berguna untuk mengatur elemen pada class tersebut menjadi berada di kiri <br>
@@ -193,7 +194,7 @@ Pada bagian ini akan mengatur tampilan tabel yang responsive <br>
 a.	Tbl-biru <br>
 •	Background : mengatur warna latar belakang tautan menjadi biru tua dengan kode tersebut <br>
 •	Border radus : memberikan sudut bulat pada tautan dengan jari jari sudut sebesar 20 pixel <br>
-•	Margin top ; menambahkan margin atas sebesar 20 pixel pada tautan <br>
+•	Margin top : menambahkan margin atas sebesar 20 pixel pada tautan <br>
 •	Padding 15px 20px 15px 20px : mengatur padding tautan yakni dengan ruang sekitar teks dalam tautan dengan 15 pixel untuk bagian atas dan bawah, 20 pixel untuk sisi kiri dan kanan<br>
 •	Color : mengatur warna teks dalam tautan menjadi putih dengan kode warna tersebut <br>
 •	Font weight bold : mengatur ketebalan font teks dalam tautan menjadi tebal 
@@ -271,6 +272,77 @@ Aturan css untuk elemen dengan id ‘copyright’ yang akan merujuk pada bagian 
 •	Text align center : mengatur teks menjadi terpusat secara horizontal <br>
 •	Padding :  mengatur padding elemen id copyright dengan 50 pixel bagian atas dan bawah, 0 pixel dibagian  kanan dan kiri <br>
 •	Margin top : berguna untuk menambahkan margin atas sebesar 50 pixel pada elemen dengan id ‘copyright’<br>
+
+<b>PENJELASAN CODING RECOMMEND </b>
+
+dibagian awal halaman semua elemen head dan navbar tidak ada perubahan dari penjelasan sebelumnya, namun yang berubah hanya saja terletak pada link rel/href yang menjadi tautan tujuan 
+
+<b>CLASS CONTAINER</b>
+
+![image](https://github.com/Farahadilahasan/WebsiteRecommer/assets/124495764/a70ad03d-1ab6-4de6-897f-86bc90928111)
+
+
+Div class “container” merupakan elemen HTML yang digunakan untuk mengelompokkan dan mengatur konten dalam sebuah wadah atau container. Elemen inijuga mambantu untuk memisahkan elemen-elemen pada website agar mudah untuk memanipulasi dan memformatnya. Pada class “container” juga terdapat 3 class lagi diantaranya : <br>
+•	Div class “table city”<br>
+Elemen ini digunakan untuk mengelompokkan konten yang terkait satu sama lain. Dalam hal ini, ini digunakan untuk mengelompokkan elemen-elemen terkait dengan pilihan kota. Pada class table city ini kita menggunakan elemen input type=”radio berikut penjelasan nya:<br>
+o	input type radio dgunakan untuk membuat tombol pilihan yang memungkinkan pengguna memilih satu opsi dari beberapa yang tersedia, pada kasus ini, radio button digunakan untuk membuat daftar kota-kota yang dapat dipilih pengguna  
+
+<b>TABEL KATEGORI</b>
+
+![5 recc](https://github.com/Farahadilahasan/WebsiteRecommer/assets/124495764/933e6bf0-9c87-44a2-8bb9-0b6dbd6abe36)
+
+•	Div class selanjutnya adalah “table category” yang mana elemen untuk isi konten nya tidak jauh berbeda dengan class sebelumya (table city), hanya saja di bagian class ini terdapat tampilan gambar yang terletak di bagian atas kolom setiap konten yang ada pada table categpry. Gambar tersebut kita panggil menggunakan img src yang akan merujuk kepada file gambar yang telah kita simpan di folder asset
+
+<b>TABLE REKOMENDASI</b>
+
+<b>REKOMENDASI PENGINAPAN</b>
+
+![6 recc](https://github.com/Farahadilahasan/WebsiteRecommer/assets/124495764/50abaf5e-69c6-4d93-a1eb-103904b5e4e8)
+
+•	Div class selanjutnya terdapat div class “recommendation” yang berguna untuk mengelompokkan konten rekomendasi dari suatu kategori atau tabel tertentu. Di dalam class recommendation ini akan terdapat beberapa class lagi yang akan berperan sebagai wadah yang fokus terhadap pengelompokkan beberapa rekomendasi yang sesuai dengan kategori, sedangkan Div class “hotel”, merupakan class berguna untuk mengelompokkan isi konten rekomendasi seputar penginapan (kategori), pada class ini terdapat beberapa elemen didalamnya, yakni : <br>
+      o	ul class “accordion” yang berguna untuk membuat daftar rekomendasi yang mungkin dapat di perluas atau dipersempit oleh pengguna  <br>
+      o	li merupakan elemen list item yang berisi rekomendasi penginapan, setiap elemen ‘li’ yang mewakili satu rekomendasi <br>
+      o	input type="radio" name="accordion" id="satu" checked adalah elemen radio button. Ini digunakan untuk membuat pilihan eksklusif di antara rekomendasi penginapan. Atribut name dengan nilai            "accordion" mengelompokkan radio button ini, sehingga hanya satu yang dapat dipilih sekaligus. Radio button dengan id="satu" diberi atribut checked, sehingga ini adalah rekomendasi yang                terpilih secara otomatis saat halaman dimuat. Bersamaan dengan label yang terhubung dengan radio button (id=”tiga”) yang memugkinkan pengguna untuk memilih rekomendasi dengan menklik label            ini <br>
+      o	Div class “konten” berguna untuk mengelompokkan konten rekomendasi yang sesuai dengan kategori, termasuk gambar dan deskripsi  <br>
+      o	Selanjutnya terdapat elemen img src yang berguna untuk menampilkan gambar dan elemen p yang berguna sebagai deskripsi yang menjelaskan seputar isi konten rekomendasi tersebut   <br>
+         Untuk bagian rekomendasi seperti kuliner, wisata, pusat perbelanjaan dan lain sebagainya. Semua elemen di dalamnya sama persis dengan semua elemen yang terdapat pada bagian rekomendasi                sebelumnya (Penginapan). Tidak terdapat banyak perbedaan karna semua rekomendasi yang dikemas dalam setiap kategori nya di tabel rekomendasi memiliki konsep dan tata letak yang sama, hanya            saja pada bagian gambar dan dekskripsi seputar produk nya saja yang membedakan. Berikut kodingan masing-masing rekomendasi per kategorinya  
+
+<b> REKOMENDASI WISATA </b>
+![image](https://github.com/Farahadilahasan/WebsiteRecommer/assets/124495764/00fca34b-4657-4c01-baf1-d84ae3d8de62)
+
+<b>REKOMENDASI KULINER</b>
+![image](https://github.com/Farahadilahasan/WebsiteRecommer/assets/124495764/15255437-3ab1-422d-ac4a-25247e51a56c)
+
+<b>JAVASCRIPT </b>
+
+![1SR](https://github.com/Farahadilahasan/WebsiteRecommer/assets/124495764/eeb36eb5-4f4d-4b0d-82dd-3ba11637fb74)
+
+<b>hideAllRecommendations()</b> <br>
+Fungsi ini digunakan untuk menyembunyikan semua rekomendasi. Ini dicapai dengan mengambil semua elemen rekomendasi (dengan kelas .table.recommendations div) dan mengatur gaya display mereka menjadi 'none' sehingga mereka tidak terlihat di halaman.
+
+<b>showRecommendationsByCategory(category)</b> <br>
+Fungsi ini digunakan untuk menampilkan rekomendasi sesuai dengan kategori yang dipilih. Fungsi tersebut mengambil argumen category yang merupakan ID kategori yang dipilih oleh pengguna.
+
+![2SR](https://github.com/Farahadilahasan/WebsiteRecommer/assets/124495764/efcd1c73-dbe3-4a8e-84c8-902b3ce9c5d0)
+
+<b>Fungsi handleCategoryChange()</b><br>
+
+Fungsi ini mengatur event listener untuk mengidentifikasi perubahan pemilihan kategori oleh pengguna
+
+Dengan cara ini, ketika pengguna mengklik salah satu radio button kategori, fungsi ini akan merespons dengan cara menyembunyikan semua rekomendasi terlebih dahulu, kemudian menampilkan rekomendasi yang sesuai dengan kategori yang dipilih oleh pengguna. Ini memberikan pengalaman yang lebih interaktif dan sesuai dengan pilihan pengguna.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
