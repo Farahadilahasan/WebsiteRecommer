@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecommerWeb.</title>
+    <link rel="stylesheet" href="recommend.css">
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a>Recommer.</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="project.html">Home</a></li>
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="recommend.html">Recommendation</a></li>
+                    <li><a href="#FindUs">Find Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="">Sign Up</a></li>
+                    <link rel="stylesheet" href="style.css">
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <h1>Explore Our Recommendations</h1>
+    </header>
+</header>
+<div class="container">
+    <div class="table city">
+            <input type="radio" name="city" id="city1" checked>
+            <label for="city1">Surabaya</label>
+            
+            <input type="radio" name="city" id="city2">
+            <label for="city2">Gresik</label>
+            
+            <input type="radio" name="city" id="city3">
+            <label for="city3">Lamongan</label>
+
+            <input type="radio" name="city" id="city4">
+            <label for="city4">Bojonegoro</label>
+
+            <input type="radio" name="city" id="city5">
+            <label for="city5">Malang</label>
+
+            <input type="radio" name="city" id="city6">
+            <label for="city6">Pasuruan</label>
+
+            <input type="radio" name="city" id="city7">
+            <label for="city7">Mojokerto</label>
+
+            <input type="radio" name="city" id="city8">
+            <label for="city8">Batu</label>
+      
+    </div>
+
+    <div class="table category">
+            
+            <img src="asset/inap.jpg">
+            <input type="radio" name="category" id="penginapan" checked>
+            <label for="penginapan">Penginapan</label>
+            
+            <img src="asset/alam.jpg">
+            <input type="radio" name="category" id="wisata">
+            <label for="wisata">Wisata</label>
+            
+            <img src="asset/kulinerr.jpg">
+            <input type="radio" name="category" id="kuliner">
+            <label for="kuliner">Kuliner</label>
+
+            <img src="asset/blanja.jpg">
+            <input type="radio" name="shopping" id="shopping">
+            <label for="shopping">Pusat Perbelanjaan</label>
+    </div>
+
+    <div class="table recommendations">
+        <!-- Di sini Anda dapat menambahkan rekomendasi untuk setiap kategori -->
+        <div class="penginapan">
+            <h2>Penginapan</h2>
+            <ul class="accordion">
+                <li>
+                    <input type="radio" name="accordion" id="satu" checked>
+                    <label class="kategori-label" for="satu">Morning Sun</label>
+                    <div class="content">
+                        <img src="asset/hotelmorningg.jpg">
+                        <p>Penginapan Morning Sun terletak di Jl Kedung Doro no.82-B, Pusat Surabaya. Kamu hanya perlu membayar Rp 76 ribu saja untuk semalam. Dengan harga segitu, kamu sudah bisa mendapatkan sarapan gratis. Morning Sun dekat dengan Pasar Blauran, hanya berjarak 900 meter saja</p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="dua">
+                    <label class="kategori-label" for="dua">Livinn Hostel Gubeng Station</label>
+                    <div class="content">
+                        <img src="asset/livinn.jpg">
+                        <p>Penginapan ini terletak di Jalan Gubeng Pojok, Dalam No 5, 60272 Surabaya. Penginapan ini hanya berjarak sekitar 900 meter dari Monumen Bambu Runcing. Kamu hanya perlu mengeluarkan uang sebesar Rp 95 ribu untuk menginap semalam.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Rekomendasi Wisata Surabaya -->
+        <div class="wisata">
+            <h2>Wisata</h2>
+            <ul class="accordion">
+                <li>
+                    <input type="radio" name="accordion" id="tiga" checked>
+                    <label for="tiga">Atlantis Land</label>
+                    <div class="content">
+                        <img src="asset/atlantis.jpg">
+                        <p>Surabaya dikenal dengan cuaca panasnya. Maka dari itu, mengunjungi taman wisata air mungkin jadi pilihan tepat untuk menyegarkan diri dan ini merupakan salah satu tempat yang layak untuk dikunjungi.</p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="empat">
+                    <label for="empat">Ekowisata Mangrove</label>
+                    <div class="content">
+                        <img src="asset/mangrove.jpg">
+                        <p>Ekowisata Mangrove ini bisa menjadi pilihan tepat karena tempatnya yang bagus, bersih, serta murah. Selain bisa menghirup udara segar, kamu juga bisa menyusuri hutan mangrove di atas jembatan kayu. Pastinya tempat ini juga cocok untuk dijadikan spot hunting foto. Ada juga kolam pemancingan untuk keluarga yang sangat seru untuk dicoba.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Rekomendasi Kuliner Surabaya -->
+        <div class="kuliner">
+            <h2>Kuliner</h2>
+            <ul class="accordion">
+                <li>
+                    <input type="radio" name="accordion" id="tujuh" checked>
+                    <label for="tujuh">Bebek Goreng Sinjay</label>
+                    <div class="content">
+                        <img src="asset/sinjay.jpg">
+                        <p>Bebek Goreng Sinjay merupakan kuliner yang sudah terkenal di Surabaya. Di tempat ini, kita bisa menikmati sepotong bebek goreng berukuran besar yang garing dan krispi, namun dagingnya tetap lembut. Saat ini, Bebek Goreng Sinjay telah membuka sejumlah cabang di Surabaya. Jadi, detikers nggak perlu khawatir tidak kebagian nasi bebek gorengnya yang lezat.</p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="delapan">
+                    <label for="delapan"> Lontong Balap Garuda Pak Gendut</label>
+                    <div class="content">
+                        <img src="asset/lntongblp.jpg">
+                        <p>Lontong balap juga menjadi salah satu kuliner Surabaya yang khas dan legendaris.dari kita mungkin akan menemukan banyak tempat makan Lontong Balap, tetapi yang paling legendaris adalah Lontong Balap Garuda Pak Gendut di Jalan Kranggan.
+                            Tempat makan ini sudah ada sejak 1958 dan masih menjadi pilihan banyak warga lokal dan wisawatan saat berkunjung Surabaya.
+                            Beberapa pelanggannya menyebut, rasa makanan di warung ini masih sangat terjaga hingga saat ini.
+                            Padahal, makanan khas Surabaya ini sudah berdiri lebih dari empat dekade. <br>
+                            Alamat : Jalan Kranggan no. 60, Sawahan, Surabaya (depan bekas Bioskop Garuda)</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <script>
+            // Fungsi untuk menyembunyikan semua rekomendasi
+            function hideAllRecommendations() {
+                const allRecommendations = document.querySelectorAll('.table.recommendations > div');
+                allRecommendations.forEach(recommendation => {
+                    recommendation.style.display = 'none';
+                });
+            }
+    
+            // Fungsi untuk menampilkan rekomendasi sesuai dengan kategori yang dipilih
+            function showRecommendationsByCategory(category) {
+                const selectedRecommendations = document.querySelectorAll(`.table.recommendations > .${category}`);
+                selectedRecommendations.forEach(recommendation => {
+                    recommendation.style.display = 'block';
+                });
+            }
+    
+            // Fungsi untuk menangani perubahan pemilihan kategori
+            function handleCategoryChange() {
+                const categoryRadios = document.querySelectorAll('input[type="radio"][name="category"]');
+                categoryRadios.forEach(radio => {
+                    radio.addEventListener('change', (event) => {
+                        hideAllRecommendations(); // Sembunyikan semua rekomendasi
+                        const selectedCategory = event.target.id; // Dapatkan ID kategori yang dipilih
+                        showRecommendationsByCategory(selectedCategory); // Tampilkan rekomendasi yang sesuai
+                    });
+                });
+            }
+    
+            // Panggil fungsi untuk menangani perubahan pemilihan kategori
+            handleCategoryChange();
+        </script>
+    </body>
+    </html>
+        
+  
+
+</body>
+</html>
