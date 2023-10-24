@@ -13,7 +13,6 @@ body {
 .wrapper {
     width: 1100px;
     margin: auto;
-    position: relative;
 }
 
 .logo a {
@@ -34,18 +33,14 @@ nav {
     display: flex;
     line-height: 80px;
     position: sticky;
-    position: -webkit-sticky; 
     top: 0;
     background-color: #364f6b;
     z-index: 1;
-    border-bottom:1px solid #364f6b;
+    border-bottom:8px solid white;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
 }
 
 nav ul li {
@@ -71,6 +66,7 @@ section {
 }
 
 .kolom {
+
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -84,12 +80,8 @@ section {
 
 h2 {
     font-family: 'comic sans ms';
-    font-weight: 800;
     font-size: 45px;
-    margin-bottom: 20px;
     color: #364f6b;
-    width: 100%;
-    line-height: 50px;
 }
 
 a.tbl-biru {
@@ -107,21 +99,6 @@ a.tbl-biru:hover {
     text-decoration: none;
 }
 
-a.tbl-pink {
-    background: #fc5185;
-    border-radius: 20px;
-    margin-top: 20px;
-    padding: 15px 20px 15px 20px;
-    color: #FFFFFF;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-a.tbl-pink:hover {
-    background: #3f72af;
-    text-decoration: none;
-}
-
 p {
     margin: 10px 0px 10px 0px;
     padding: 10px 0px 10px 0px;
@@ -133,8 +110,6 @@ p {
 }
 
 .Recommendation-list {
-    width: 100%;
-    position: relative;
     display: flex;
     flex-wrap: wrap;
 }
@@ -146,7 +121,7 @@ p {
 
 .kartu-Recommendation img {
     width: 80%;
-    border-radius: 50%;
+
 }
 
 .kartu-Recommendation p {
@@ -158,8 +133,7 @@ p {
 }
 
 .FindUs-list {
-    width: 100%;
-    position: relative;
+    
     display: flex;
     flex-wrap: wrap;
 }
@@ -170,18 +144,16 @@ p {
 }
 
 .kartu-FindUs img {
-    width: 150px;
+    width: 100px;
     border-radius: 50%;
 }
 
 #contact {
     background: #dedede;
-    padding:50px 0px 50px 0px;
+    padding:50px 0px;
 }
 
 .footer {
-    width: 100%;
-    position: relative;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
@@ -194,63 +166,13 @@ p {
 
 h3 {
     font-family: 'comic sans ms';
-    font-weight: 800;
     font-size: 30px;
-    margin-bottom: 20px;
     color: #364f6b;
-    width: 100%;
-    line-height: 50px;
 }
 
 #copyright {
     text-align: center;
-    width: 100%;
-    padding: 50px 0px 50px 0px;
+    padding: 50px 0px;
     margin-top: 50px;
 }
 
-@media screen and (max-width: 991.98px) {
-    .wrapper {
-        width: 90%;
-    }
-
-    .logo a {
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-
-    nav .menu {
-        width: 100%;
-        margin: 0;
-    }
-
-    nav .menu ul {
-        text-align: center;
-        margin: auto;
-        line-height: 60px;
-    }
-
-    nav .menu ul li {
-        display: inline-block;
-        float: none;
-    }
-
-    section {
-        display: block;
-    }
-
-    section img {
-        display: block;
-        width: 100%;
-        height: auto;
-    }
-
-    .kartu-Recommendation {
-        width: 50%;
-    }
-
-    .kartu-FindUs {
-        width: 50%;
-    }
-}
